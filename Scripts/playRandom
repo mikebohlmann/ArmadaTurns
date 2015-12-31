@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Uses the shuf command to randomly return the name of a file
+# You must remove spaces from all file names. I recommend using
+# only letters, numbers, dashes(-), and underscores (_). MP3
+# files work best.
+
+file=`shuf -n1 -e /mnt/sd/sounds/pewpew/*`
+
+# If your files are too loud or not loud enough, use the --adjust-volume
+# to adjust the playback volume
+
+madplay --adjust-volume=-0 $file
+

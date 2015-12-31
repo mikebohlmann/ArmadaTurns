@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# see playRandom for some additional info
+
+madplay --adjust-volume=-0 --time=00:00:18.715 /mnt/sd/sounds/imperial_march.mp3

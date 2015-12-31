@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# see playRandom for some additional info
+
+madplay --adjust-volume=-0 /mnt/sd/sounds/FleetChoke.mp3
